@@ -1,10 +1,12 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   background: #10101b;
   height: 100vh;
 }
+
 .container {
   margin-top: 30px;
 }
@@ -15,6 +17,7 @@ body {
   padding: 30px;
   text-align: center;
 }
+
 .generate-btn {
   margin-top: 140px;
   width: 180px;
@@ -27,10 +30,12 @@ body {
   font-size: 20px;
   text-align: center;
 }
+
 .generate-btn:focus {
   outline: none;
   box-shadow: none;
 }
+
 .generate-btn:hover {
   background: #fec600;
   color: #444;
@@ -48,11 +53,13 @@ input[type="text"] {
   height: 50px;
   padding: 10px;
 }
+
 input[type="text"]:focus {
   background-color: #3d4153;
   color: #fff;
   font-size: 20px;
 }
+
 .numbers {
   margin: 30px 0;
 }
@@ -83,13 +90,16 @@ input[type="text"]:focus {
   cursor: pointer;
   transition: all 0.3s linear;
 }
+
 .button:hover {
   background: #fec600;
   color: #444;
 }
+
 .blink-me {
   color: #e0b612;
 }
+
 .submit-btn {
   border: none;
   margin-top: 20px;
@@ -98,6 +108,7 @@ input[type="text"]:focus {
   background: #495bc3;
   color: #fff;
 }
+
 .notify {
   color: #fff;
   text-align: center;
@@ -107,11 +118,18 @@ input[type="text"]:focus {
   border-radius: 15px;
   padding: 5px 20px;
 }
+
 .notify-section {
-  width: 35%;
+  width: 45%;
   margin: 0 auto;
 }
+
 .action-left {
   color: #ff3c5f;
   margin-top: 10px;
+}
+
+.notify-ok,
+.notify-cross {
+  display: none;
 }
